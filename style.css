@@ -1,0 +1,92 @@
+* {
+    /* border: 1px red solid; */
+}
+
+body {
+    margin: 0;
+}
+.header {
+    background: #1F2937;
+    font-size: 24px;
+    color: #f9faf8;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    justify-content: space-between;
+    padding: 0px 30px 90px 30px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 4px;
+    padding: 0;
+    gap: 16px
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.initial {
+    background: #1F2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    padding: 0px 250px 90px 250px;
+    height: 200px;
+    align-items: stretch;
+}
+
+.initial .big-text {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.initial .small-text {
+    font-size: 18px;
+}
+
+.initial-box-one, .initial img {
+    flex: 1;
+}
+
+.initial-box-one {
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+button {
+    cursor: pointer;
+    border: 1px solid #ddd;
+    background: #3882f6;
+    color: white;
+    align-items: center;
+    padding: 10px 20px; /* Adjust padding for a better button size */
+    margin: 10px 0 0 0; 
+    align-self: flex-start; /* the button aligns to the start of its container */
+    font-size: 16px; /* Adjust font size for better appearance */
+    border-radius: 5px; /* Adds rounded corners for a nicer look */   
+}
+
+.initial img {
+    flex: 1;
+    max-width: 100%; /* Ensures the image doesn't exceed the container's width */
+    max-height: 100%; /* Ensures the image doesn't exceed the container's height */
+    object-fit: cover; /* Ensures the image covers the container while maintaining aspect ratio */
+    margin: 0 10px; /* Optional: Adds space around the image */
+    align-self: center; /* Centers the image vertically within the flex container */
+    object-position: center;
+    border-radius: 5px
+}
