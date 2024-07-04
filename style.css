@@ -13,7 +13,7 @@ body {
     align-items: center;
     padding: 0 16px;
     justify-content: space-between;
-    padding: 0px 30px 90px 30px;
+    padding: 0px 260px 90px 260px;
 }
 
 ul {
@@ -88,5 +88,72 @@ button {
     margin: 0 10px; /* Optional: Adds space around the image */
     align-self: center; /* Centers the image vertically within the flex container */
     object-position: center;
-    border-radius: 5px
+    border-radius: 5px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding: 48px;
+}
+
+.title-info {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937
+
+}
+
+.cards {
+    width: 1000px;
+    display: flex;
+    gap: 20px;
+    
+}
+
+.empty-boxes {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    height: 200px;
+    gap: 20px;    
+}
+
+.square {
+    width: 200px;
+    gap: 20px;
+    border: 3px #3882f6 solid;
+    border-radius: 5px;
+    
+}
+
+.card {
+    text-align: center;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding: 48px;
+    background: #E5E7Eb
+}
+
+.quote {
+    display: flex;
+    width: 1000px;
+    font-size: 32px;
+    font-style: italic;
+    color: #1F2937
+}
+
+.author {
+    width: 1000px;
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+    color: #1F2937
 }
